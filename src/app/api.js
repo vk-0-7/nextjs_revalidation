@@ -1,7 +1,7 @@
 
 export const getUsers=async()=>{
     try {
-        let users = await fetch('http://localhost:8000/api/getusers')
+        let users = await fetch('https://ecommercebackend-production-6fdf.up.railway.app/api/getusers')
          users=await users.json()
         return users;
     } catch (error) {
