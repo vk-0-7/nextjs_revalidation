@@ -1,7 +1,7 @@
 
 export const getUsers=async()=>{
     try {
-        let users = await fetch('https://ecommercebackend-production-6fdf.up.railway.app/api/getusers')
+        let users = await fetch('https://ecommercebackend-production-6fdf.up.railway.app/api/getusers',{next:{tags:['users']}})
          users=await users.json()
         return users;
     } catch (error) {
