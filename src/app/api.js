@@ -5,7 +5,7 @@ export const getUsers=async()=>{
          users=await users.json()
         return users;
     } catch (error) {
-        console.log('No user found');
+        console.log('No user found',error);
         
     }
 }
