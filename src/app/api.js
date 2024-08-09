@@ -9,3 +9,4 @@ export const getUsers=async()=>{
         
     }
 }
+export const runtime="edge"

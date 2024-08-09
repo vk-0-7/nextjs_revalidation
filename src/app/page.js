@@ -124,3 +124,5 @@ const Form = () => {
 };
 
 export default Form;
+
+export const runtime = 'egde';
