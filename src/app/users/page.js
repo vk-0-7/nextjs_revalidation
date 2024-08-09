@@ -4,7 +4,7 @@ import { getUsers } from "../api"
 
  const Users=async()=>{
     const users=await getUsers()
-    // console.log(users);
+    console.log(users);
      return (
        <>
      <ul>
