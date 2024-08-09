@@ -125,4 +125,4 @@ const Form = () => {
 
 export default Form;
 
-export const runtime = 'egde';
+export const runtime = 'edge';
